@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "quotes_app",
+    "name": "Quotes",
     "slug": "quotes_app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -12,16 +12,23 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "y"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.umaramjad642.quotes_app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bf0ac5bc-ba01-4afc-8cc2-bfdfd9a14c39"
+      }
     }
   }
 }
